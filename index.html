@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guy Castel Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #f8b195, #f67280, #c06c84, #6c5b7b, #355c7d);
+      background-size: 300% 300%;
+      animation: gradientBG 12s ease infinite;
+      font-family: 'Arial', sans-serif;
+      color: white;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 2rem;
+      padding: 1rem 2.5rem;
+      background: #ffffffdd;
+      color: #333;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0px 12px 15px -8px rgba(0, 0, 0, 0.3), 0px 8px 6px -2px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: #333;
+      color: #ffffff;
+      transform: scale(1.1) rotate(1deg);
+      box-shadow: 0px 15px 25px -10px rgba(0, 0, 0, 0.5);
+    }
+
+    a:active {
+      transform: scale(1.05) rotate(-1deg);
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.linkedin.com/in/guycastel" target="_blank" rel="noopener noreferrer">
+    Visit My LinkedIn
+  </a>
+</body>
+</html>
